@@ -29,7 +29,7 @@ int main()
 {
   int A[5] = {1,3,4,2,5};
   BubbleSort(A,5);
-  for(int i=0; i<=5; i++)
+  for(int i=0; i<5; i++)
   {
 	cout << A[i] << " ";
   }
